@@ -1,11 +1,13 @@
-from PyHEADTAIL.machines.synchrotron import BasicSynchrotron
+#from PyHEADTAIL.machines.synchrotron import BasicSynchrotron
+from PyHEADTAIL.machines.synchrotron import Synchrotron
 import numpy as np
 from scipy.constants import c, e, m_p
 
 class EmptyObject(object):
     pass
 
-class LHC(BasicSynchrotron):
+#class LHC(BasicSynchrotron):
+class LHC(Synchrotron):
 
     def __init__(self, n_segments, machine_configuration, optics_dict=None, **kwargs):
         

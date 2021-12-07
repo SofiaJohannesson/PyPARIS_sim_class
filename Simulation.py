@@ -153,7 +153,7 @@ class Simulation(object):
 
 
     def _build_machine(self):
-
+        
         pp = self.pp
 
         self.optics_from_pickle = False
